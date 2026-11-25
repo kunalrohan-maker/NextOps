@@ -3,7 +3,7 @@
  * Production API Gateway for SCADA Telemetry & Plant Analytics
  */
 
-export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://api.nextops.live';
+export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://backend-query-b8aghfgmdme0a5fa.southindia-01.azurewebsites.net';
 export const COPILOT_API_BASE_URL = import.meta.env.VITE_COPILOT_API_BASE_URL || 'https://ai.nextops.live';
 
 export const API_ENDPOINTS = {
